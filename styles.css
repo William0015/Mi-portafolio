@@ -143,7 +143,6 @@ section.curriculum{
 }
 
 section.contacto{
-    background-image: url(img/fondo3.jpg);
     background-size: cover;
     background-position: center top;
     height: 100vh;
@@ -735,6 +734,7 @@ section.footer{
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
+    color: white;
 }
 
 .portfolio-container {
@@ -829,7 +829,7 @@ section.footer{
 /* SECCION CONTACTO */
 .contacto{
     background-color: #851818;
-    color: rgb(255, 255, 255);
+    color: rgb(0 0 0);
     padding: 50px 0;
 }
 .contacto .contenido-seccion{
@@ -862,14 +862,13 @@ section.footer{
 }
 .contacto button{
     cursor: pointer;
-    background-color: transparent;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255 255 255);
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: rgb(211,3,3);
+    color: rgb(0 0 0);
     position: relative;
     z-index: 10;
 }
